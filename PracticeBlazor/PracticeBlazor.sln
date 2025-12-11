@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34728.123
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PracticeBlazor", "PracticeBlazor\PracticeBlazor\PracticeBlazor.csproj", "{11DFBED7-2C62-4B23-8613-05F7D2F0B253}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PracticeBlazor.Client", "PracticeBlazor\PracticeBlazor.Client\PracticeBlazor.Client.csproj", "{4AB77A4B-2E45-4AA9-B2A0-F4D101687F8B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{11DFBED7-2C62-4B23-8613-05F7D2F0B253}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{11DFBED7-2C62-4B23-8613-05F7D2F0B253}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{11DFBED7-2C62-4B23-8613-05F7D2F0B253}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{11DFBED7-2C62-4B23-8613-05F7D2F0B253}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4AB77A4B-2E45-4AA9-B2A0-F4D101687F8B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4AB77A4B-2E45-4AA9-B2A0-F4D101687F8B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4AB77A4B-2E45-4AA9-B2A0-F4D101687F8B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4AB77A4B-2E45-4AA9-B2A0-F4D101687F8B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E3FCE8DC-1B68-46EE-8F91-784436368ACB}
+	EndGlobalSection
+EndGlobal
