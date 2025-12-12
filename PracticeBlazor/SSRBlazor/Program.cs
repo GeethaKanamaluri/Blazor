@@ -25,7 +25,9 @@ app.UseStaticFiles();
 
 app.UseRouting();
 
+//signalR
 app.MapBlazorHub();
+//root application page
 app.MapFallbackToPage("/_Host");
 
 app.Run();
