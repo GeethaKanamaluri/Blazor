@@ -6,7 +6,9 @@ using System.Threading.Tasks;
 
 namespace DataModels
 {
-    internal class Gender
-    {
+    public enum Gender
+    {       
+        Male,
+        Female
     }
 }

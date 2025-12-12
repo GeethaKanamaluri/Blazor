@@ -1,0 +1,20 @@
+﻿@page "/EmployeeList"
+@inherits EmployeeListBase
+<h3>EmployeeList</h3>
+
+<div class="card-deck">
+    @if (Employee!=null)
+    {
+        @foreach (var item in Employee)
+        {
+            <div class="card m-3">
+                <div class="card-header">
+                    <h3>@item.FirstName @item.LastName</h3>
+                </div>
+                @*  <img class="card-img-top" src="@item.PhotoPath"/> *@
+            </div>
+        }
+    }
+</div>
+
+
